@@ -1,0 +1,44 @@
+@import '../../variables';
+.tracker {
+    .entry {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        margin: 2rem 0;
+        &__input {
+            margin: 0 1rem;
+            & input {
+                height: 100%;
+                padding: 0.25rem;
+                border: 1px solid $light-gray;
+                transition: 0.2s;
+                &:focus {
+                    outline: none;
+                    background-color: $light-gray;
+                }
+            }
+            & select {
+                height: 100%;
+                padding: 0.25rem 0.5rem;
+                border: 1px solid $light-gray;
+                transition: 0.2s;
+                &:focus {
+                    outline: none;
+                    background-color: $light-gray;
+                }
+            }
+        }
+
+        &__prepend {
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            &-text {
+                background-color: $light-gray;
+                padding: 1rem;
+                align-content: flex-end;
+            }
+        }
+    }
+}

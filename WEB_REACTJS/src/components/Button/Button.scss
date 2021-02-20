@@ -1,0 +1,10 @@
+.button {
+    padding: 1rem;
+    background-color: blue;
+    color: white;
+
+    &:hover {
+        background-color: lightblue;
+        cursor: pointer;
+    }
+}

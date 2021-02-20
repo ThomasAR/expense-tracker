@@ -1,0 +1,24 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "description": "Track and analyze expenses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasAR/expense-tracker.git"
+  },
+  "author": "Thomas Arsenault",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThomasAR/expense-tracker/issues"
+  },
+  "homepage": "https://github.com/ThomasAR/expense-tracker#readme",
+  "dependencies": {
+    "csv-database": "^0.9.2",
+    "express": "^4.17.1"
+  }
+}
